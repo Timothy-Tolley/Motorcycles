@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  width:100%;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+#app{
+  width:100%;
+  height:100%;
+}
+
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+.bikeImg{
+  border-radius: 50%;
+  width:300px;
+}
+
+.bike{
+  width:300px;
+  height:300px;
+  padding: 20px;
+}
+
+.motoCont{
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

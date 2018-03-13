@@ -1,0 +1,39 @@
+{
+  "name": "react-paws-for-effect",
+  "version": "0.3.0",
+  "description": "A 'first React app' tutorial/challenge",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server & webpack --watch",
+    "dev": "nodemon server & webpack --watch"
+  },
+  "repository": "https://github.com/dev-academy-challenges/react-paws-for-effect.git",
+  "author": "EDA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-academy-challenges/react-paws-for-effect/issues"
+  },
+  "homepage": "https://github.com/dev-academy-challenges/react-paws-for-effect#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "nodemon": "^1.15.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "mongodb": "^3.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "superagent": "^3.8.2",
+    "webpack": "^3.10.0"
+  }
+}
